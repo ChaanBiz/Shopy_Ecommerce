@@ -172,5 +172,47 @@ header .icons a img {
 .page_1 .filter .fil:hover .choice {
   display: flex;
 }
+.page_1 .products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.page_1 .products .product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 20px;
+  background-color: rgba(141, 173, 169, 0.5);
+  border-radius: 20px;
+}
+.page_1 .products .product .image {
+  width: 474px;
+  height: 376px;
+}
+.page_1 .products .product .image img {
+  width: 100%;
+}
+.page_1 .products .product .text {
+  text-align: start;
+}
+.page_1 .products .product .text h3, .page_1 .products .product .text span {
+  font-size: 32px;
+}
+.page_1 .products .product .text h3 {
+  font-weight: 600;
+}
+.page_1 .products .product .text span, .page_1 .products .product .text .sold {
+  font-weight: bold;
+  color: #6B8B87;
+}
+.page_1 .products .product .text .sold {
+  display: flex;
+}
+.page_1 .products .product .text .sold p {
+  margin-right: 5px;
+}
 
 /*# sourceMappingURL=style.css.map */
