@@ -18,7 +18,7 @@ header {
   align-items: center;
   justify-content: center;
   background-color: rgba(141, 173, 169, .5);
-  backdrop-filter: blur(20);
+  backdrop-filter: blur(10px);
   div {
     margin: 0 40px;
   }
@@ -60,6 +60,49 @@ header {
       margin: 3px;
       img {
         width: 30px;
+      }
+    }
+  }
+}
+
+.page_1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+  }
+  .seller {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(141, 173, 169, .5);
+    backdrop-filter: blur(10px);
+    .account {
+      display: flex;
+      .profile {
+        width: 55px;
+        height: 55px;
+        background-color: rgba(141, 173, 169, .5);
+        border-radius: 50%;
+      }
+      .infos {
+        font-size: 14px;
+        padding: 0 20px 0 6px;
+        span {
+          font-size: 20px;
+          font-weight: 600;
+        }
+        .rate {
+          display: flex;
+          align-items: center;
+          p {
+            margin-right: 3px;
+          }
+        }
       }
     }
   }
