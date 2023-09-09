@@ -55,5 +55,8 @@ header .search_bar input[type=search]::-webkit-search-cancel-button {
 header .icons a {
   margin: 3px;
 }
+header .icons a img {
+  width: 30px;
+}
 
 /*# sourceMappingURL=style.css.map */
