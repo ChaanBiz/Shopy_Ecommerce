@@ -90,6 +90,10 @@ header .icons a img {
   background-color: rgba(141, 173, 169, 0.5);
   border-radius: 50%;
 }
+.page_1 .seller .account .profile img {
+  width: 100%;
+  border-radius: 50%;
+}
 .page_1 .seller .account .infos {
   padding: 0 20px 0 6px;
 }
@@ -129,6 +133,9 @@ header .icons a img {
 }
 .page_1 .seller .details .interact .btns div p {
   margin-left: 5px;
+}
+.page_1 .seller .details .interact .btns div:hover {
+  background-color: rgba(141, 173, 169, 0.7);
 }
 .page_1 .seller .details .interact .btns .follow span {
   font-size: 20px;
@@ -184,22 +191,19 @@ header .icons a img {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  margin: 20px;
+  margin: 10px;
   background-color: rgba(141, 173, 169, 0.5);
   border-radius: 20px;
 }
-.page_1 .products .product .image {
-  width: 474px;
-  height: 376px;
-}
 .page_1 .products .product .image img {
-  width: 100%;
+  width: 380px;
+  height: 275px;
 }
 .page_1 .products .product .text {
   text-align: start;
 }
 .page_1 .products .product .text h3, .page_1 .products .product .text span {
-  font-size: 32px;
+  font-size: 25px;
 }
 .page_1 .products .product .text h3 {
   font-weight: 600;

@@ -92,6 +92,10 @@ header {
         height: 60px;
         background-color: rgba(141, 173, 169, .5);
         border-radius: 50%;
+        img {
+          width: 100%;
+          border-radius: 50%;
+        }
       }
       .infos {
         padding: 0 20px 0 6px;
@@ -129,6 +133,9 @@ header {
             cursor: pointer;
             p {
               margin-left: 5px;
+            }
+            &:hover {
+              background-color: rgba(141, 173, 169, .7);
             }
           }
           .follow {
@@ -192,20 +199,19 @@ header {
       justify-content: center;
       align-items: center;
       padding: 10px;
-      margin: 20px;
+      margin: 10px;
       background-color: rgba(141, 173, 169, .5);
       border-radius: 20px;
       .image {
-        width: 474px;
-        height: 376px;
         img {
-          width: 100%;
+          width: 380px;
+          height: 275px;
         }
       }
       .text {
         text-align: start;
         h3, span {
-          font-size: 32px;
+          font-size: 25px;
         }
         h3 {
           font-weight: 600;
