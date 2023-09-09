@@ -186,6 +186,7 @@ header .icons a img {
   margin-top: 15px;
 }
 .page_1 .products .product {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -195,15 +196,28 @@ header .icons a img {
   background-color: rgba(141, 173, 169, 0.5);
   border-radius: 20px;
 }
+.page_1 .products .product .voucher {
+  position: absolute;
+  right: -10px;
+  top: 25px;
+  padding: 5px 10px;
+  background-color: rgb(150, 185, 181);
+  border-radius: 10px;
+}
+.page_1 .products .product .voucher p {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.8);
+}
 .page_1 .products .product .image img {
-  width: 380px;
+  width: 270px;
   height: 275px;
+  border-radius: 13px;
 }
 .page_1 .products .product .text {
   text-align: start;
 }
 .page_1 .products .product .text h3, .page_1 .products .product .text span {
-  font-size: 25px;
+  font-size: 20px;
 }
 .page_1 .products .product .text h3 {
   font-weight: 600;
@@ -217,6 +231,9 @@ header .icons a img {
 }
 .page_1 .products .product .text .sold p {
   margin-right: 5px;
+}
+.page_1 .ads {
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

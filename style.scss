@@ -194,6 +194,7 @@ header {
     flex-wrap: wrap;
     margin-top: 15px;
     .product {
+      position: relative;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -202,16 +203,29 @@ header {
       margin: 10px;
       background-color: rgba(141, 173, 169, .5);
       border-radius: 20px;
+      .voucher {
+        position: absolute;
+        right: -10px;
+        top: 25px;
+        padding: 5px 10px;
+        background-color: rgb(150, 185, 181);
+        border-radius: 10px;
+        p {
+          font-weight: 600;
+          color: rgba(255, 255, 255, .8);
+        }
+      }
       .image {
         img {
-          width: 380px;
+          width: 270px;
           height: 275px;
+          border-radius: 13px;
         }
       }
       .text {
         text-align: start;
         h3, span {
-          font-size: 25px;
+          font-size: 20px;
         }
         h3 {
           font-weight: 600;
@@ -228,5 +242,8 @@ header {
         }
       }
     }
+  }
+  .ads {
+    margin-top: 20px;
   }
 }
