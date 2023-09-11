@@ -176,7 +176,9 @@ header {
         position: absolute;
         padding: 10px 20px;
         background-image: linear-gradient(180deg, rgba(141, 173, 169, .1), rgba(141, 173, 169, .5));
+        backdrop-filter: blur(20px);
         border-radius: 10px;
+        z-index: 9999;
         a {
           text-decoration: none;
           color: #000;
