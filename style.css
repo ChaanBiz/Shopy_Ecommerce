@@ -11,13 +11,15 @@ body {
 }
 
 header {
+  position: fixed;
   width: 100%;
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(141, 173, 169, 0.5);
+  background-color: rgba(141, 173, 169, 0.7);
   backdrop-filter: blur(10px);
+  z-index: 10000000;
 }
 header div {
   margin: 0 40px;
@@ -31,7 +33,7 @@ header .text a {
 header .search_bar {
   display: flex;
   align-items: center;
-  background-color: rgba(141, 173, 169, 0.5);
+  background-color: rgba(176, 211, 206, 0.5);
   border-radius: 30px;
 }
 header .search_bar #search_icon {
@@ -39,7 +41,7 @@ header .search_bar #search_icon {
   margin: 0 10px 0 5px;
 }
 header .search_bar input {
-  background-color: rgba(141, 173, 169, 0.5);
+  background-color: rgb(176, 211, 206);
   border: none;
   outline: none;
   padding: 10px;
@@ -63,6 +65,7 @@ header .icons a img {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-top: 50px;
 }
 .page_1 .logo {
   display: flex;
