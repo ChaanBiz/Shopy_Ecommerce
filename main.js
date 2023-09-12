@@ -29,11 +29,13 @@ varlist = document.getElementById("variant")
 oz.forEach((item) => {
   const list = document.createElement("div")
   list.innerHTML = item;
+  list.classList.add("com_btn")
   ozlist.appendChild(list)
 })
 
 variant.forEach((item) => {
-  const list = document.createElement("div")
+  let list = document.createElement("div")
   list.innerHTML = item;
+  list.classList.add("com_btn")
   varlist.appendChild(list)
 })

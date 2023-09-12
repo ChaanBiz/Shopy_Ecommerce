@@ -235,7 +235,6 @@ header {
   }
 }
 
-
 .text {
   text-align: start;
   h3, span {
@@ -273,15 +272,20 @@ header {
     justify-content: center;
     align-items: center;
     .image {
-      width: 700px;
-      height: 761;
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: end;
       margin-right: 50px;
+
       img {
-        width: 100%;
+        width: 700px;
+        height: 761;
       }
     }
     .text {
       color:rgba(0, 0, 0, .5);
+      width: 40%;
       .heading {
         display: flex;
         h3 {
@@ -299,19 +303,36 @@ header {
           display: flex;
           .core {
             display: flex;
-            flex-direction: column;
             margin-right: 42px;
           }
           .fee {
             margin-bottom: 2px;
           }
         }
+        .choice {
+          padding: 10px 0;
+          #oz, #variant {
+            display: flex;
+            flex-wrap: wrap;
+          }
+        }
+        .var {
+          h3 {
+            font-size: 20px;
+            color:rgba(0, 0, 0, .25);
+          }
+        }
+      }
+      .wrapper {
+        padding-left: 30px;
       }
       .com_btn {
         background-color: rgba(141, 173, 169, .5);
-        padding: 3px 15px;
+        padding: 2px 15px;
         border-radius: 30px;
         font-weight: 500;
+        text-align: center;
+        margin: 3px;
       }
     }
   }
