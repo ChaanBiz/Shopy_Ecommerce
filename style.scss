@@ -359,6 +359,11 @@ header {
           }
           p {
             margin: 2px 5px;
+            span {
+              font-size: 16px;
+              font-weight: 500;
+              margin-right: 5px;
+            }
           }
         }
       }
@@ -381,6 +386,12 @@ header {
           }
           #buy {
             background-color: rgba(141, 173, 169, .5);
+          }
+        }
+        .total {
+          margin-bottom: 5px;
+          span {
+            font-size: 20px;
           }
         }
       }

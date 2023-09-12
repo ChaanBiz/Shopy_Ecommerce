@@ -352,6 +352,11 @@ header .icons a img {
 .show_buy .container .text .quantity .clin p {
   margin: 2px 5px;
 }
+.show_buy .container .text .quantity .clin p span {
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 5px;
+}
 .show_buy .container .text .cta {
   align-items: center;
 }
@@ -373,6 +378,12 @@ header .icons a img {
 }
 .show_buy .container .text .cta .btns #buy {
   background-color: rgba(141, 173, 169, 0.5);
+}
+.show_buy .container .text .cta .total {
+  margin-bottom: 5px;
+}
+.show_buy .container .text .cta .total span {
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

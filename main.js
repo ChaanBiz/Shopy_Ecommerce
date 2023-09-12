@@ -44,3 +44,36 @@ variant.forEach((item) => {
 
 //quantity & total
 
+const minus = document.getElementById("minus"),
+add = document.getElementById("add"),
+quantity = document.getElementById("quantity"),
+total = document.getElementById("total"),
+stock = document.getElementById("available")
+
+let stockCount = 1516
+let itemCount = 1
+let price = 1900
+
+minus.addEventListener("click", () => {
+  if(itemCount > 1) {
+    itemCount--;
+    stockCount++
+    price = price - 1900;
+    update()
+  } else {
+    alert("1 item is set by default")
+  }
+})
+
+add.addEventListener("click", () => {
+  itemCount++;
+  stockCount--
+  price = price + 1900;
+  update()
+})
+
+function update() {
+  quantity.innerHTML = itemCount;
+  total.innerHTML = price.toLocaleString();
+  stock.innerHTML = stockCount;
+}
