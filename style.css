@@ -200,6 +200,7 @@ header .icons a img {
   margin: 10px;
   background-color: rgba(141, 173, 169, 0.5);
   border-radius: 20px;
+  text-decoration: none;
 }
 .page_1 .products .product .voucher {
   position: absolute;
@@ -218,27 +219,89 @@ header .icons a img {
   height: 275px;
   border-radius: 13px;
 }
-.page_1 .products .product .text {
+.page_1 .ads {
+  margin-top: 20px;
+}
+
+.text {
   text-align: start;
 }
-.page_1 .products .product .text h3, .page_1 .products .product .text span {
-  font-size: 20px;
+.text h3, .text span {
+  font-size: 32px;
 }
-.page_1 .products .product .text h3 {
+.text h3 {
   font-weight: 600;
+  color: #000;
 }
-.page_1 .products .product .text span, .page_1 .products .product .text .sold {
+.text span, .text .sold {
   font-weight: bold;
   color: #6B8B87;
 }
-.page_1 .products .product .text .sold {
+.text .sold {
   display: flex;
 }
-.page_1 .products .product .text .sold p {
+.text .sold p {
   margin-right: 5px;
 }
-.page_1 .ads {
-  margin-top: 20px;
+
+.show_buy {
+  padding: 70px 50px;
+}
+.show_buy p {
+  font-weight: 500;
+}
+.show_buy #cancel {
+  text-align: end;
+}
+.show_buy #cancel img {
+  width: 20px;
+}
+.show_buy .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.show_buy .container .image {
+  width: 700px;
+  height: 761;
+  margin-right: 50px;
+}
+.show_buy .container .image img {
+  width: 100%;
+}
+.show_buy .container .text {
+  color: rgba(0, 0, 0, 0.5);
+}
+.show_buy .container .text .heading {
+  display: flex;
+}
+.show_buy .container .text .heading h3 {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-right: 5px;
+}
+.show_buy .container .text .box {
+  margin-top: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.show_buy .container .text .box .inner {
+  display: flex;
+}
+.show_buy .container .text .box .inner .core {
+  display: flex;
+  flex-direction: column;
+  margin-right: 42px;
+}
+.show_buy .container .text .box .inner .fee {
+  margin-bottom: 2px;
+}
+.show_buy .container .text .com_btn {
+  background-color: rgba(141, 173, 169, 0.5);
+  padding: 3px 15px;
+  border-radius: 30px;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=style.css.map */
