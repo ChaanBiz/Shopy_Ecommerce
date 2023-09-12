@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: linear-gradient(90deg, #B1FAE8, #A2D4D8);
+  background-image: linear-gradient(90deg, #92e4cf, #A2D4D8);
 }
 
 header {
@@ -274,7 +274,7 @@ header .icons a img {
 }
 .show_buy .container .text {
   color: rgba(0, 0, 0, 0.5);
-  width: 40%;
+  width: 50%;
 }
 .show_buy .container .text .heading {
   display: flex;
@@ -283,6 +283,14 @@ header .icons a img {
   font-size: 24px;
   color: rgba(0, 0, 0, 0.5);
   margin-right: 5px;
+}
+.show_buy .container .text .com_btn {
+  background-color: rgba(141, 173, 169, 0.5);
+  padding: 2px 15px;
+  border-radius: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin: 3px;
 }
 .show_buy .container .text .box {
   margin-top: 26px;
@@ -295,6 +303,7 @@ header .icons a img {
 }
 .show_buy .container .text .box .inner .core {
   display: flex;
+  flex-direction: column;
   margin-right: 42px;
 }
 .show_buy .container .text .box .inner .fee {
@@ -313,14 +322,57 @@ header .icons a img {
 }
 .show_buy .container .text .wrapper {
   padding-left: 30px;
+  width: 80%;
 }
-.show_buy .container .text .com_btn {
+.show_buy .container .text .quantity {
+  display: flex;
+  flex-direction: row;
+}
+.show_buy .container .text .quantity .clin {
+  margin-left: 40px;
+}
+.show_buy .container .text .quantity .clin .edit {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
   background-color: rgba(141, 173, 169, 0.5);
-  padding: 2px 15px;
+  box-shadow: 0 0 3px rgba(141, 173, 169, 0.7);
+  border-radius: 50px;
+}
+.show_buy .container .text .quantity .clin .edit #quantity {
+  margin: 0 20px;
+}
+.show_buy .container .text .quantity .clin .edit #minus, .show_buy .container .text .quantity .clin .edit #add {
+  padding: 10px 15px;
+  background-color: rgba(141, 173, 169, 0.5);
+  box-shadow: 0 0 3px rgba(141, 173, 169, 0.7);
+  border-radius: 50px;
+  cursor: pointer;
+}
+.show_buy .container .text .quantity .clin p {
+  margin: 2px 5px;
+}
+.show_buy .container .text .cta {
+  align-items: center;
+}
+.show_buy .container .text .cta .btns {
+  display: flex;
+}
+.show_buy .container .text .cta .btns .btn {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
   border-radius: 30px;
-  font-weight: 500;
-  text-align: center;
-  margin: 3px;
+  box-shadow: 0 0 5px rgba(141, 173, 169, 0.6);
+  padding: 10px 30px;
+  margin: 0 10px;
+}
+.show_buy .container .text .cta .btns .btn img {
+  margin-left: 5px;
+}
+.show_buy .container .text .cta .btns #buy {
+  background-color: rgba(141, 173, 169, 0.5);
 }
 
 /*# sourceMappingURL=style.css.map */

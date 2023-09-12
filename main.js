@@ -1,3 +1,5 @@
+//variation
+
 const oz = [
   "40oz",
   "32oz",
@@ -39,3 +41,6 @@ variant.forEach((item) => {
   list.classList.add("com_btn")
   varlist.appendChild(list)
 })
+
+//quantity & total
+
