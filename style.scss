@@ -238,7 +238,7 @@ header {
 .text {
   text-align: start;
   h3, span {
-    font-size: 32px;
+    font-size: 20px;
   }
   h3 {
     font-weight: 600;
@@ -261,8 +261,12 @@ header {
   p {
     font-weight: 500;
   }
-  #cancel {
-    text-align: end;
+  .text h3, .text span {
+    font-size: 25px;
+  }
+  .cancel {
+    display: flex;
+    justify-content: end;
     img {
       width: 20px;
     }
@@ -289,7 +293,7 @@ header {
       .heading {
         display: flex;
         h3 {
-          font-size: 24px;
+          font-size: 20px;
           color:rgba(0, 0, 0, .5);
           margin-right: 5px;
         }
@@ -364,6 +368,10 @@ header {
               font-weight: 500;
               margin-right: 5px;
             }
+          }
+          #reset {
+            text-decoration: underline;
+            cursor: pointer;
           }
         }
       }

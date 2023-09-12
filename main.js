@@ -48,7 +48,8 @@ const minus = document.getElementById("minus"),
 add = document.getElementById("add"),
 quantity = document.getElementById("quantity"),
 total = document.getElementById("total"),
-stock = document.getElementById("available")
+stock = document.getElementById("available"),
+reset = document.getElementById("reset")
 
 let stockCount = 1516
 let itemCount = 1
@@ -69,6 +70,13 @@ add.addEventListener("click", () => {
   itemCount++;
   stockCount--
   price = price + 1900;
+  update()
+})
+
+reset.addEventListener("click", () => {
+  itemCount = 1
+  stockCount = 1516
+  price = 1900
   update()
 })
 
