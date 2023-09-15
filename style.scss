@@ -59,9 +59,21 @@ header {
   }
   .icons {
     a {
+      position: relative;
       margin: 3px;
+      text-decoration: none;
       img {
         width: 30px;
+      }
+      span {
+        position: absolute;
+        right: 0;
+        z-index: 999;
+        color: white;
+        background-color: #6B8B87;
+        border-radius: 50%;
+        padding: 0 5px;
+        font-size: 13px;
       }
     }
   }
@@ -388,6 +400,7 @@ header {
             box-shadow: 0 0 5px rgba(141, 173, 169, .6);
             padding: 10px 30px;
             margin: 0 10px;
+            cursor: pointer;
             img {
               margin-left: 5px;
             }

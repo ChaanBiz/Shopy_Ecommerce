@@ -55,10 +55,22 @@ header .search_bar input[type=search]::-webkit-search-cancel-button {
   background-image: url(images/icon_x.png);
 }
 header .icons a {
+  position: relative;
   margin: 3px;
+  text-decoration: none;
 }
 header .icons a img {
   width: 30px;
+}
+header .icons a span {
+  position: absolute;
+  right: 0;
+  z-index: 999;
+  color: white;
+  background-color: #6B8B87;
+  border-radius: 50%;
+  padding: 0 5px;
+  font-size: 13px;
 }
 
 .page_1 {
@@ -380,6 +392,7 @@ header .icons a img {
   box-shadow: 0 0 5px rgba(141, 173, 169, 0.6);
   padding: 10px 30px;
   margin: 0 10px;
+  cursor: pointer;
 }
 .show_buy .container .text .cta .btns .btn img {
   margin-left: 5px;

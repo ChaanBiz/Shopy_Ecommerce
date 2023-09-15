@@ -85,3 +85,23 @@ function update() {
   total.innerHTML = price.toLocaleString();
   stock.innerHTML = stockCount;
 }
+
+// add to cart
+
+const addCart = document.getElementById("add_cart"),
+item = document.getElementById("item")
+
+let cart_item = 0
+
+addCart.addEventListener("click", () => {
+  if(item.innerHTML < 1) {
+    cart_item++
+    addtoCart()
+  } else {
+    alert("Product is already in the cart.")
+  }
+})
+
+function addtoCart() {
+  item.innerHTML = cart_item;
+}
