@@ -128,3 +128,4 @@ function addtoCart() {
 // ended in buy btn
 
 const buyBtn = document.getElementById("buy")
+
