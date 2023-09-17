@@ -71,6 +71,7 @@ header .icons a span {
   border-radius: 50%;
   padding: 0 5px;
   font-size: 13px;
+  scale: 1.9;
 }
 
 .page_1 {
@@ -271,6 +272,7 @@ header .icons a span {
 }
 .show_buy .cancel img {
   width: 20px;
+  cursor: pointer;
 }
 .show_buy .container {
   display: flex;
@@ -362,6 +364,7 @@ header .icons a span {
   padding: 10px 15px;
   background-color: rgba(141, 173, 169, 0.5);
   box-shadow: 0 0 3px rgba(141, 173, 169, 0.7);
+  border: none;
   border-radius: 50px;
   cursor: pointer;
 }
@@ -405,6 +408,24 @@ header .icons a span {
 }
 .show_buy .container .text .cta .total span {
   font-size: 20px;
+}
+.show_buy #confirm_add {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(141, 173, 169, 0.5);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: 0.3s;
+}
+.show_buy #confirm_add img {
+  padding: 10px;
+  width: 40px;
+}
+.show_buy #confirm_add p {
+  padding: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,3 +1,15 @@
+const cal = document.getElementById("cancel"),
+confirm_add = document.getElementById("confirm_add")
+
+function cancel() {
+  confirm_add.style.opacity = "0"
+  confirm_add.style.transform = "translate(-50%, -40%)"
+}
+
+cal.addEventListener("click", () => {
+  cancel()
+})
+
 //variation
 
 const oz = [
@@ -96,7 +108,12 @@ let cart_item = 0
 addCart.addEventListener("click", () => {
   if(item.innerHTML < 1) {
     cart_item++
+    itemCount = 1
+    stockCount = 1516
+    price = 1900
     addtoCart()
+    update()
+    confirm_add.style.opacity = "1"
   } else {
     alert("Product is already in the cart.")
   }
@@ -104,4 +121,8 @@ addCart.addEventListener("click", () => {
 
 function addtoCart() {
   item.innerHTML = cart_item;
+  item.style.scale = "1"
+  item.style.transition = ".4s"
 }
+
+// ended in buy btn
