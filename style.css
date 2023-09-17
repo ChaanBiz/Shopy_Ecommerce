@@ -395,6 +395,7 @@ header .icons a span {
   box-shadow: 0 0 5px rgba(141, 173, 169, 0.6);
   padding: 10px 30px;
   margin: 0 10px;
+  border: none;
   cursor: pointer;
 }
 .show_buy .container .text .cta .btns .btn img {
@@ -402,6 +403,9 @@ header .icons a span {
 }
 .show_buy .container .text .cta .btns #buy {
   background-color: rgba(141, 173, 169, 0.5);
+}
+.show_buy .container .text .cta .btns #add_cart {
+  background-color: transparent;
 }
 .show_buy .container .text .cta .total {
   margin-bottom: 5px;

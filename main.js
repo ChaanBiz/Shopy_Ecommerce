@@ -13,27 +13,27 @@ cal.addEventListener("click", () => {
 //variation
 
 const oz = [
-  "40oz",
+  // "40oz",
   "32oz",
   "22oz",
-  "18oz",
-  "14oz"
+  // "18oz",
+  // "14oz"
 ]
 
 const variant = [
-  "ST Amethyst",
-  "ST Hunter",
-  "ST Malibu",
-  "ST Moss Green",
-  "ST Stone Gray",
-  "Emerald",
+  // "ST Amethyst",
+  // "ST Hunter",
+  // "ST Malibu",
+  // "ST Moss Green",
+  // "ST Stone Gray",
+  // "Emerald",
   "Obsidian",
-  "Pearl",
-  "Rose Quartz",
-  "Ruby",
-  "Sapphire",
+  // "Pearl",
+  // "Rose Quartz",
+  // "Ruby",
+  // "Sapphire",
   "Tarzanite",
-  "Topaz"
+  // "Topaz"
 ]
 
 const ozlist = document.getElementById("oz"),
@@ -126,3 +126,5 @@ function addtoCart() {
 }
 
 // ended in buy btn
+
+const buyBtn = document.getElementById("buy")
