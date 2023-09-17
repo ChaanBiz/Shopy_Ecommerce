@@ -403,6 +403,7 @@ header {
             box-shadow: 0 0 5px rgba(141, 173, 169, .6);
             padding: 10px 30px;
             margin: 0 10px;
+            border: none;
             cursor: pointer;
             img {
               margin-left: 5px;
@@ -410,6 +411,9 @@ header {
           }
           #buy {
             background-color: rgba(141, 173, 169, .5);
+          }
+          #add_cart {
+            background-color: transparent;
           }
         }
         .total {
